@@ -1,0 +1,78 @@
+
+
+/////////////////////////////////////////// PSEUDO-CODE /////////////////////////////////////////// 
+
+
+ETAPE 1) Créé la base de donnée, avec les tables suivantes:
+    - user,
+    - user_recette,
+    - statuts,
+    - recettes,
+    - ingrédients,
+    - quantité,
+    - unité,
+    - recettes_ingrédients,
+    - categories
+
+ETAPE 2) Création de la React App et installer "Axios"
+
+ETAPE 3) Installation de Node et ses dependances:
+    - bcrypt,
+    - body-parser,
+    - cors,
+    - express,
+    - formidable,
+    - fs,
+    - jsonwebtoken,
+    - mysql,
+    - nodemon
+    
+ETAPE 4) Initialiser le dossier config_front pour y mettre path.js qui contiendra les routes front,
+        API.js qui contiendra les chemins de base pour les images ou les liens,
+        Constante.js qui contiendra les types de dipatch que je pourrai avoir dans le reducer,
+        inputLengthFront.js qui contiendra deux fonctions afin de gerer la longueur des champs renseigner dans les input
+        et enfin toUppercase.js qui contiendra une fonction pour mettre une majuscule a la premiere lettre d'une phrase. 
+
+ETAPE 5) Initialiser App.js et app.js en y important les dependances necessaires
+
+ETAPE 6) Initialiser le reducer et le provider pour utiliser le Context
+
+ETAPE 7) Initialiser le Midleware front et le midleware back afin de proteger les routes necessaires
+    
+ETAPE 8) Créer le dossier config pour y mettre dataBase.js qui servira a utiliser la base de donnée
+
+ETAPE 9) Créer le dossier config_back pour y mettre inputLengthBack.js qui servira a gerer la longueur des champs renseigner dans les input
+    
+ETAPE 10) Initialiser le reducer avec les states de connexion admin et user ainsi que l'id et le prenom de l'utilisateur
+
+ETAPE 11) Initialiser tokjen.js dans le dossier controllers pour gerer la persistence de connexion avec le jwtToken
+    
+ETAPE 12) Créer le dossier Loggin pour y initialiser les composents:
+    - Connect.jsx,
+    - Deco.jsx,
+    - Loggin.jsx,
+    - Register.js
+    
+ETAPE 13) Initialiser le reste des composents:
+    - Accessibilite.jsx,
+    - AddRecette.jsx,
+    - Admin.jsx,
+    - DataList.jsx,
+    - DetailsRecette.jsx,
+    - EditRecette.jsx
+    - Erreur.jsx,
+    - Footer.jsx,
+    - Home.jsx,
+    - Navbar.jsx,
+    - Recettes.jsx
+    
+ETAPE 14) Initialiser les controllers afin d'assurer le bon fonctionnement des composents front deja initialiser:
+    - addRecette.js,
+    - admin.js,
+    - connect.js,
+    - detailsRecette.js,
+    - editRecette.js,
+    - home.js,
+    - isLogged.js,
+    - recettes.js,
+    - register.js
